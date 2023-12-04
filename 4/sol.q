@@ -1,0 +1,1 @@
+sum ({r:sum(in) . {except[;0N] "I"$" "vs x}each trim "|"vs (1+x ? ":") _ x;$[2<r; 2 xexp r-1;r]} each input)
